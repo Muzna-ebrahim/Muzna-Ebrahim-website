@@ -1,3 +1,73 @@
 body {
-    background: rgb(211, 208, 208);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    background-color: whitesmoke;
+    color: rgb(66, 66, 66);
+    padding: 150px;
+}
+
+/* Image container */
+.image {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    background-color: white;
+    
+}
+
+.image img {
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+/* About Me section */
+.About-Me {
+    max-width: 600px;
+}
+
+.About-Me h1 {
+    font-size: 2em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+#contact {
+    margin-top: 40px;
+}
+
+.Container {
+    background-color: white;
+    padding: 20px;
+}
+
+.Contact, .social-links, .skills {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: rgb(4, 34, 36);
+    
+}
+
+/* Skills List */
+.skills ol {
+    list-style: none;
+    padding-left: 10;
+}
+
+.skills li {
+    padding: 4px 0;
+}
+
+/* responsive */
+@media screen and (max-width: 768px) {
+    .image {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image img {
+        max-width: 100%;
+    }
 }
